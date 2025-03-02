@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#BDDFED">
+
+<TextView
+    android:id="@+id/timerTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:textSize="24sp"
+    android:layout_margin="8dp"
+    android:text="00:00"
+    android:textColor="@android:color/black" />
+
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layoutGry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:background="#BDDFED"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/buttonPowrot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Powrót"
+        android:textSize="20dp"
+        android:backgroundTint="@android:color/holo_orange_dark"/>
+
+</LinearLayout>
+
