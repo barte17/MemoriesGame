@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#90C4CA">
+
+    <TextView
+        android:id="@+id/tvTytul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wybierz rozmiar planszy"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:layout_margin="30dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tvRozmiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rozmiar planszy:"
+        android:textSize="20dp"
+        android:paddingBottom="15sp" />
+
+    <Spinner
+        android:id="@+id/spinner_rozmiarPlanszy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:layout_marginBottom="20sp"/>
+
+    <Button
+        android:id="@+id/bZapisz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Zapisz"
+        android:textSize="18sp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:padding="12dp" />
+</LinearLayout>
